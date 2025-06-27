@@ -36,7 +36,8 @@ function App() {
           Weekly training sessions and community events keep our members active
           and connected.
         </p>
-        
+        <img src="/ailbhe.jpeg" alt="Our Team" style={{ maxWidth: "100%", borderRadius: "10px" }} />
+
       </section>
 
       <section className="news" id="news">
@@ -78,6 +79,23 @@ function App() {
       </div>
       
     </section>
+
+
+    <section className="calendar-section">
+      <h2 style={{ textAlign: 'center' }}>Upcoming Events</h2>
+      <div className="calendar-wrapper">
+        <iframe
+          src="https://calendar.google.com/calendar/embed?src=i7dl3jk3s1s7rmtvpqrhirq9j4%40group.calendar.google.com&ctz=Europe%2FDublin" 
+          style={{ border: 0 }}
+          width="80%"
+          height="600"
+          frameBorder="0"
+          scrolling="no"
+          title="Club Events Calendar"
+        ></iframe>
+      </div>
+    </section>
+
 
 
       {/* Contact section */}

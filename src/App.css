@@ -148,3 +148,16 @@ p {
   }
 }
 
+.calendar-wrapper {
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  /* optionally add: */
+  margin: 0 auto;           /* centers block if width is less than container */
+}
+
+.calendar-section {
+  padding: 3rem 2rem;
+
+  margin: 0 auto;           /* centers block if width is less than container */
+}
