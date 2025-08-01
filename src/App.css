@@ -9,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to right, #398586, #216869);
+  background: linear-gradient(to right,#20612d, #0c5d1c);
   color: white;
   padding: 1rem 2rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -47,7 +47,7 @@ body {
 .hero {
   text-align: center;
   padding: 4rem 2rem;
-  background: linear-gradient(to right, #e7e6e6, #c7c7c7);
+  background: linear-gradient(to right, #a5b0cd, #2d3c64);
   color: #222;
 }
 
