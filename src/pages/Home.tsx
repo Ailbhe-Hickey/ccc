@@ -50,6 +50,8 @@ const HomePage: React.FC = () => {
         navBackgroundDefault="bg-transparent"
       />
 
+      
+
       <section id="features" className="py-28 bg-gray-100 text-[#454851]">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center md:space-x-16 min-h-[400px]">
 
@@ -77,6 +79,13 @@ const HomePage: React.FC = () => {
         </div>
       </section>
       
+        <PolicyListWithImage
+        title="Our Club Policies"
+        items={policies}
+        imageSrc="/policy.png"  
+        imageAlt="Club policies"
+      /> 
+
       <ImageSlideshow
           slides={slides}
           title="Look at us go"
@@ -86,12 +95,7 @@ const HomePage: React.FC = () => {
           height="auto"       // Adjusts to image aspect ratio
         />
   
-      <PolicyListWithImage
-        title="Our Club Policies"
-        items={policies}
-        imageSrc="/policy.png"  
-        imageAlt="Club policies"
-      />      
+           
       <CallToActionSection />
     </>
   );
