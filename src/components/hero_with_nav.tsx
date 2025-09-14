@@ -1,5 +1,5 @@
-import React from "react";                  // JSX rendering
-import { Link } from 'react-router-dom';    //internal navigation
+import React from "react"; // JSX rendering
+import { Link } from 'react-router-dom'; //internal navigation
 
 // Define the props(params) it can accept, ? means optional
 type HeroWithNavProps = {
@@ -64,23 +64,27 @@ const HeroWithNav: React.FC<HeroWithNavProps> = ({
         </div>
       </nav>
 
-      {/* Hero Content */}
-      <main className="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center">
+      <main className="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center text-center md:text-left">
         {/* Text section */}
         <div className="md:w-1/2 space-y-6">
-          <h1 className="text-5xl md:text-6xl font-extrabold leading-tight max-w-lg">{title}</h1>
-          <p className="text-lg md:text-xl max-w-md text-green-100">{subtitle}</p>
+          <h1 className="text-5xl md:text-6xl font-extrabold leading-tight max-w-lg mx-auto md:mx-0">
+            {title}
+          </h1>
+          <p className="text-lg md:text-xl max-w-md text-green-100 mx-auto md:mx-0">
+            {subtitle}
+          </p>
 
-          {/* Conditionally render button if both buttonText and buttonLink are provided */}
           {buttonText && buttonLink && (
             <a
               href={buttonLink}
-              className="mt-6 inline-block px-8 py-3 rounded-full text-white font-bold bg-[#454851] hover:bg-[#363940] transition"
+              className="mt-6 inline-block px-8 py-3 rounded-full text-white font-bold bg-[#454851] hover:bg-[#363940] transition mx-auto md:mx-0"
             >
               {buttonText}
             </a>
           )}
         </div>
+
+
 
         {/* Image section */}
         <div className="md:w-1/2 relative mt-12 md:mt-0">

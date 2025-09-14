@@ -7,7 +7,7 @@ const CallToActionSection: React.FC = () => {
           Whether you're looking to play, volunteer, or just support, there's a place for you here.
         </p>
         <button className="px-8 py-3 rounded-full bg-[#454851] hover:bg-[#363940] transition font-bold">
-          Sign Up Now
+          Contact us today
         </button>
       </div>
     </section>

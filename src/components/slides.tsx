@@ -52,7 +52,7 @@ const ImageSlideshow: React.FC<ImageSlideshowProps> = ({
     <div className="max-w-3xl mx-auto px-6 py-40">
       {/* Slideshow container */}
       <div
-        className="overflow-hidden rounded-xl shadow-lg mx-auto"
+        className="overflow-hidden  mx-auto"
         style={{ width, height }} 
       >
         {/* Inner wrapper that slides horizontally */}
@@ -73,7 +73,7 @@ const ImageSlideshow: React.FC<ImageSlideshowProps> = ({
         </div>
 
         {/* Dots navigation (below image) */}
-        <div className="flex justify-center mt-4 space-x-3">
+        <div className="flex justify-center mt-4 space-x-3 pb-4">
           {slides.map((_, idx) => (
             <button
               key={idx}

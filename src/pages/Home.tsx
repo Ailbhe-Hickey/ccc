@@ -78,13 +78,14 @@ const HomePage: React.FC = () => {
       </section>
       
       <ImageSlideshow
-        slides={slides}
-        title="Look at us go"
-        description="Those jerseys are so nice"
-        interval={5000}
-        width="700px"
-        height="400px"
-      />     
+          slides={slides}
+          title="Look at us go"
+          description="Those jerseys are so nice"
+          interval={5000}
+          width="100%"        // Full width on small screens
+          height="auto"       // Adjusts to image aspect ratio
+        />
+  
       <PolicyListWithImage
         title="Our Club Policies"
         items={policies}
