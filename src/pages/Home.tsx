@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import CallToActionSection from "../components/call_to_action";
 import FeatureBox from "../components/grid_with_text";
 import HeroWithNav from "../components/hero_with_nav";
-import PolicyListWithImage from "../components/policy_links";
 import ImageSlideshow from "../components/slides";
 
 const slides = [
@@ -11,23 +10,6 @@ const slides = [
   { imageSrc: "/ella.jpg" },
 ];
 
-const policies = [
-  {
-    text: "All players must wear protective gear at all times",
-    linkText: "Read more",
-    linkUrl: "/policies/protective-gear",
-  },
-  {
-    text: "Respect for coaches, teammates, and opponents is mandatory",
-    linkText: "View full code of conduct",
-    linkUrl: "/policies/code-of-conduct",
-  },
-  {
-    text: "Weekly practice attendance is required unless excused",
-    linkText: "Learn about attendance policy",
-    linkUrl: "/policies/attendance",
-  },
-];
 
 
 
@@ -79,12 +61,6 @@ const HomePage: React.FC = () => {
         </div>
       </section>
       
-        <PolicyListWithImage
-        title="Our Club Policies"
-        items={policies}
-        imageSrc="/policy.png"  
-        imageAlt="Club policies"
-      /> 
 
       <ImageSlideshow
           slides={slides}
