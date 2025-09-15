@@ -110,7 +110,7 @@ const HeroWithNavNoScroll: React.FC<HeroWithNavProps> = ({
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight max-w-lg mx-auto md:mx-0">
             {title}
           </h1>
-          <p className="text-lg md:text-xl max-w-md text-green-100 mx-auto md:mx-0">
+          <p className="text-lg md:text-xl max-w-md text-[#454851] mx-auto md:mx-0">
             {subtitle}
           </p>
           {buttonText && buttonLink && (
