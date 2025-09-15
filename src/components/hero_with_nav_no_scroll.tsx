@@ -19,7 +19,7 @@ const HeroWithNavNoScroll: React.FC<HeroWithNavProps> = ({
   const [menuOpen, setMenuOpen] = React.useState(false);
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-tr from-[#2c4d30] to-[#9fcab0] text-white">
+    <div className="relative min-h-screen bg-gradient-to-bl from-[#2c4d30] to-[#9fcab0] text-white">
       {/* Navbar */}
       <nav className="w-full bg-transparent">
         <div className="max-w-7xl mx-auto flex items-center justify-between p-6">
