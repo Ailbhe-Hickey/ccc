@@ -27,18 +27,16 @@ const ContactDetails: React.FC<ContactDetailsProps> = ({ title, subtitle, contac
           {contacts.map((contact, idx) => (
             <li key={idx} className="font-semibold">
               {contact.role}
-              <ul className="list-[circle] list-inside ml-6 font-normal">
+              <ul className="list-[circle] list-inside ml-6 font-normal break-words">
                 <li>{contact.name}</li>
-                <ul className="list-[circle] list-inside ml-6">
                   <li>
                     <a
                       href={`mailto:${contact.email}`}
-                      className="text-[#3c5443] hover:underline"
+                      className="text-[#3c5443]  hover:underline break-words"
                     >
                       {contact.email}
                     </a>
                   </li>
-                </ul>
               </ul>
             </li>
           ))}

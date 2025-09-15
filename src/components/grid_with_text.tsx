@@ -14,8 +14,8 @@ const FeatureBox: React.FC<FeatureBoxProps> = ({ title, description }) => (
 
   // Return a styled div container
   <div className="bg-white p-6 rounded-xl shadow-md">
-    <h3 className="text-xl font-bold mb-4">{title}</h3>
-    <p className="text-gray-700">{description}</p>
+    <h3 className="text-center text-xl font-bold mb-4">{title}</h3>
+    <p className="text-center text-gray-700">{description}</p>
   </div>
 );
 
