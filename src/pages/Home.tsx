@@ -26,7 +26,7 @@ const HomePage: React.FC = () => {
         }
         subtitle="Better than Eire Og"
         imageSrc="/ailbhe.jpeg"
-        buttonText="Join us today!"
+        buttonText="Contact us today!"
         buttonLink="/contact"
       />
 
