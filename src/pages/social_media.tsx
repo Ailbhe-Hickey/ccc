@@ -1,6 +1,6 @@
 import CallToActionSection from "../components/call_to_action";
 import NavBar from "../components/nav";
-import Social_media from "../components/social_media";
+import SocialMedia from "../components/social_media";
 
 const socials = [
   {
@@ -26,12 +26,12 @@ const socials = [
 ];
 
 
-const Social_media_page: React.FC = () => {
+const SocialMediaPage: React.FC = () => {
   return (
     <>
       <NavBar/>
       
-      <Social_media
+      <SocialMedia
         title="Get all the latest news and updates"
         subtitle="Contact us through our social media channels"
         items={socials}
@@ -44,4 +44,4 @@ const Social_media_page: React.FC = () => {
 };
 
 
-export default Social_media_page;
+export default SocialMediaPage;

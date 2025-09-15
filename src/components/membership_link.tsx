@@ -8,7 +8,7 @@ type MembershipProps = {
   subtitle?: string;
 };
 
-const Membership_link: React.FC<MembershipProps> = ({
+const MembershipLink: React.FC<MembershipProps> = ({
   title,
   subtitle,
 }) => {
@@ -30,5 +30,5 @@ const Membership_link: React.FC<MembershipProps> = ({
   );
 };
 
-export default Membership_link;
+export default MembershipLink;
 

@@ -1,5 +1,5 @@
 import CallToActionSection from "../components/call_to_action";
-import Membership_link from "../components/membership_link";
+import MembershipLink from "../components/membership_link";
 import NavBar from "../components/nav";
 
 
@@ -10,7 +10,7 @@ const MembershipPage: React.FC = () => {
 
     <NavBar/>
       
-    <Membership_link
+    <MembershipLink
         title="Memberships"
         subtitle="Follow the link to sign up"/> 
 
